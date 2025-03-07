@@ -20,32 +20,20 @@ public class UserRepository : IUserRepository
     }
 
     public async Task<bool> ActiveUserAsync(string activeCode)
-
     {
-
         var user = await _context.Users.FirstOrDefaultAsync(u => !u.IsActive && u.Code == activeCode);
 
-
-
         if (user != null)
-
         {
-
             user.Code = CodeGenerators.ActiveCode();
-
             user.IsActive = true;
-
-
-
             await _context.SaveChangesAsync();
-
             return true;
-
         }
 
         return false;
-
     }
+
 
 
 

@@ -1,5 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
 
 public class ActiveModel : PageModel
 {
@@ -17,26 +17,28 @@ public class ActiveModel : PageModel
 
     public void OnGet(string userId)
     {
-        UserId = userId;
+        UserId = userId; // ذخیره شناسه کاربر برای استفاده در فعال‌سازی
     }
 
     public async Task<IActionResult> OnPostAsync()
     {
         if (!ModelState.IsValid)
-            return Page();
+            return Page(); // اگر مدل معتبر نیست، صفحه را دوباره بارگذاری کن
 
-        var user = await _userRepository.GetUserAsync(UserId);
+        var user = await _userRepository.GetUserAsync(UserId); // دریافت کاربر با شناسه
         if (user == null)
-            return NotFound();
+            return NotFound(); // اگر کاربر پیدا نشد، خطای 404 برگردان
 
-        if (user.Code == ActivationCode)
+        if (user.Code == ActivationCode) // بررسی کد فعال‌سازی
         {
-            user.IsActive = true;
-            await _userRepository.UpdateUserAsync(user);
-            return RedirectToPage("/Login");
+            user.IsActive = true; // تغییر وضعیت کاربر به فعال
+            await _userRepository.UpdateUserAsync(user); // به‌روزرسانی کاربر در دیتابیس
+
+            // هدایت به صفحه پروفایل بعد از فعال‌سازی موفق
+            return RedirectToPage("/Profile"); // فرض بر این است که صفحه پروفایل شما "/Profile" است
         }
 
-        ModelState.AddModelError("", "کد فعال‌سازی نامعتبر است");
-        return Page();
+        ModelState.AddModelError("", "کد فعال‌سازی نامعتبر است"); // خطا در صورت نامعتبر بودن کد
+        return Page(); // صفحه را دوباره بارگذاری کن
     }
 }

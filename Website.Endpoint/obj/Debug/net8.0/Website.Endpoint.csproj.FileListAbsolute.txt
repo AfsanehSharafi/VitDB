@@ -147,3 +147,4 @@ C:\Projects\Vit\Website.Endpoint\obj\Debug\net8.0\refint\Website.Endpoint.dll
 C:\Projects\Vit\Website.Endpoint\obj\Debug\net8.0\Website.Endpoint.pdb
 C:\Projects\Vit\Website.Endpoint\obj\Debug\net8.0\Website.Endpoint.genruntimeconfig.cache
 C:\Projects\Vit\Website.Endpoint\obj\Debug\net8.0\ref\Website.Endpoint.dll
+C:\Projects\Vit\Website.Endpoint\obj\Debug\net8.0\Website.Endpoint.sourcelink.json

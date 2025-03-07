@@ -10,7 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddAuthorization();
 builder.Services.AddMediatR(Assembly.GetExecutingAssembly());
-builder.Services.AddTransient<IRequestHandler<RegisterUserCommand, int>, RegisterUserCommandHandler>();
+builder.Services.AddMediatR(typeof(RegisterUserCommand).Assembly);
 builder.Services.AddAutoMapper(typeof(MappingProfile)); 
 builder.Services.AddDbContext<DataBaseContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
