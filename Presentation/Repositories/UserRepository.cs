@@ -43,10 +43,12 @@ public class UserRepository : IUserRepository
         return await _context.Users.AnyAsync(u => u.Mobile == mobileNumber);
     }
 
-    public async Task<User> GetUserAsync(string userId)
+    public async Task<User> GetUserAsync(string Id)
     {
-        return await _context.Users.FindAsync(userId);
+        return await _context.Users.FindAsync(Id)
+               ?? throw new Exception("کاربر مورد نظر یافت نشد");
     }
+
 
     public async Task<bool> UpdateUserAsync(User user)
     {

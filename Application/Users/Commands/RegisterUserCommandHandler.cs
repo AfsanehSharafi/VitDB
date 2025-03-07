@@ -19,13 +19,12 @@ namespace Application.Users.Commands
         {
             var user = _mapper.Map<User>(request);
             user.IsActive = false;
-            user.Code = GenerateActivationCode(); // متد تولید کد فعال‌سازی
+            user.Code = GenerateActivationCode();
             return await _userRepository.AddUserAsync(user);
         }
 
         private string GenerateActivationCode()
         {
-            // تولید کد فعال‌سازی تصادفی
             return new Random().Next(100000, 999999).ToString();
         }
     }

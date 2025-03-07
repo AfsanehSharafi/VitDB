@@ -11,6 +11,10 @@
       "RelativeMoniker": "D:0:0:{3B2AA9DA-72EF-424C-88DF-99728FF20E95}|Website.Endpoint\\Website.Endpoint.csproj|solutionrelative:website.endpoint\\pages\\account\\active.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3B2AA9DA-72EF-424C-88DF-99728FF20E95}|Website.Endpoint\\Website.Endpoint.csproj|c:\\projects\\vit\\website.endpoint\\pages\\account\\active.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B2AA9DA-72EF-424C-88DF-99728FF20E95}|Website.Endpoint\\Website.Endpoint.csproj|solutionrelative:website.endpoint\\pages\\account\\active.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3B2AA9DA-72EF-424C-88DF-99728FF20E95}|Website.Endpoint\\Website.Endpoint.csproj|c:\\projects\\vit\\website.endpoint\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B2AA9DA-72EF-424C-88DF-99728FF20E95}|Website.Endpoint\\Website.Endpoint.csproj|solutionrelative:website.endpoint\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,16 +23,28 @@
       "RelativeMoniker": "D:0:0:{3B2AA9DA-72EF-424C-88DF-99728FF20E95}|Website.Endpoint\\Website.Endpoint.csproj|solutionrelative:website.endpoint\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B2AA9DA-72EF-424C-88DF-99728FF20E95}|Website.Endpoint\\Website.Endpoint.csproj|c:\\projects\\vit\\website.endpoint\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B2AA9DA-72EF-424C-88DF-99728FF20E95}|Website.Endpoint\\Website.Endpoint.csproj|solutionrelative:website.endpoint\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57510317-1ED2-42A7-A2D8-4E68E582E60F}|Application\\Application.csproj|c:\\projects\\vit\\application\\users\\commands\\registerusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57510317-1ED2-42A7-A2D8-4E68E582E60F}|Application\\Application.csproj|solutionrelative:application\\users\\commands\\registerusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{57510317-1ED2-42A7-A2D8-4E68E582E60F}|Application\\Application.csproj|c:\\projects\\vit\\application\\users\\commands\\registerusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57510317-1ED2-42A7-A2D8-4E68E582E60F}|Application\\Application.csproj|solutionrelative:application\\users\\commands\\registerusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57510317-1ED2-42A7-A2D8-4E68E582E60F}|Application\\Application.csproj|c:\\projects\\vit\\application\\users\\commands\\registerusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57510317-1ED2-42A7-A2D8-4E68E582E60F}|Application\\Application.csproj|solutionrelative:application\\users\\commands\\registerusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57510317-1ED2-42A7-A2D8-4E68E582E60F}|Application\\Application.csproj|c:\\projects\\vit\\application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57510317-1ED2-42A7-A2D8-4E68E582E60F}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F84160F-3B6C-40F9-ACF9-D66401E3DDB7}|Domain\\Domain.csproj|c:\\projects\\vit\\domain\\entities\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F84160F-3B6C-40F9-ACF9-D66401E3DDB7}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B2AA9DA-72EF-424C-88DF-99728FF20E95}|Website.Endpoint\\Website.Endpoint.csproj|c:\\projects\\vit\\website.endpoint\\pages\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B2AA9DA-72EF-424C-88DF-99728FF20E95}|Website.Endpoint\\Website.Endpoint.csproj|solutionrelative:website.endpoint\\pages\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B2AA9DA-72EF-424C-88DF-99728FF20E95}|Website.Endpoint\\Website.Endpoint.csproj|c:\\projects\\vit\\website.endpoint\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B2AA9DA-72EF-424C-88DF-99728FF20E95}|Website.Endpoint\\Website.Endpoint.csproj|solutionrelative:website.endpoint\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,46 +86,98 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Active.cshtml",
+              "DocumentMoniker": "C:\\Projects\\Vit\\Website.Endpoint\\Pages\\Account\\Active.cshtml",
+              "RelativeDocumentMoniker": "Website.Endpoint\\Pages\\Account\\Active.cshtml",
+              "ToolTip": "C:\\Projects\\Vit\\Website.Endpoint\\Pages\\Account\\Active.cshtml",
+              "RelativeToolTip": "Website.Endpoint\\Pages\\Account\\Active.cshtml",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAIwBMAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-07T07:56:31.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Projects\\Vit\\Domain\\Entities\\Users\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Users\\User.cs",
+              "ToolTip": "C:\\Projects\\Vit\\Domain\\Entities\\Users\\User.cs",
+              "RelativeToolTip": "Domain\\Entities\\Users\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T07:47:57.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Projects\\Vit\\Application\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Projects\\Vit\\Application\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAwwAUAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T07:47:47.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Projects\\Vit\\Website.Endpoint\\Pages\\Account\\Profile.cshtml",
+              "RelativeDocumentMoniker": "Website.Endpoint\\Pages\\Account\\Profile.cshtml",
+              "ToolTip": "C:\\Projects\\Vit\\Website.Endpoint\\Pages\\Account\\Profile.cshtml",
+              "RelativeToolTip": "Website.Endpoint\\Pages\\Account\\Profile.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-07T07:18:52.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Active.cshtml.cs",
               "DocumentMoniker": "C:\\Projects\\Vit\\Website.Endpoint\\Pages\\Account\\Active.cshtml.cs",
               "RelativeDocumentMoniker": "Website.Endpoint\\Pages\\Account\\Active.cshtml.cs",
               "ToolTip": "C:\\Projects\\Vit\\Website.Endpoint\\Pages\\Account\\Active.cshtml.cs",
               "RelativeToolTip": "Website.Endpoint\\Pages\\Account\\Active.cshtml.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAowCMAAAAAAAAA",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAUwCEAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-07T06:51:10.452Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "C:\\Projects\\Vit\\Website.Endpoint\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "Website.Endpoint\\Pages\\Account\\Register.cshtml.cs",
               "ToolTip": "C:\\Projects\\Vit\\Website.Endpoint\\Pages\\Account\\Register.cshtml.cs",
               "RelativeToolTip": "Website.Endpoint\\Pages\\Account\\Register.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-07T06:31:42.1Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Projects\\Vit\\Website.Endpoint\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "Website.Endpoint\\Pages\\Account\\Register.cshtml",
               "ToolTip": "C:\\Projects\\Vit\\Website.Endpoint\\Pages\\Account\\Register.cshtml",
               "RelativeToolTip": "Website.Endpoint\\Pages\\Account\\Register.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-07T06:31:39.961Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Projects\\Vit\\Website.Endpoint\\Program.cs",
               "RelativeDocumentMoniker": "Website.Endpoint\\Program.cs",
@@ -117,8 +185,7 @@
               "RelativeToolTip": "Website.Endpoint\\Program.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAA0AAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T18:56:20.64Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-02T18:56:20.64Z"
             },
             {
               "$type": "Document",
@@ -128,14 +195,14 @@
               "RelativeDocumentMoniker": "Presentation\\Repositories\\UserRepository.cs",
               "ToolTip": "C:\\Projects\\Vit\\Presentation\\Repositories\\UserRepository.cs",
               "RelativeToolTip": "Presentation\\Repositories\\UserRepository.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAgwB8AAAAJAAAA",
+              "ViewState": "AQIAACgAAAAAAAAAAAA5wDEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-02T11:00:50.453Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "RegisterUserCommand.cs",
               "DocumentMoniker": "C:\\Projects\\Vit\\Application\\Users\\Commands\\RegisterUserCommand.cs",
               "RelativeDocumentMoniker": "Application\\Users\\Commands\\RegisterUserCommand.cs",
@@ -143,19 +210,21 @@
               "RelativeToolTip": "Application\\Users\\Commands\\RegisterUserCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T10:59:43.382Z"
+              "WhenOpened": "2025-03-02T10:59:43.382Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "RegisterUserCommandHandler.cs",
               "DocumentMoniker": "C:\\Projects\\Vit\\Application\\Users\\Commands\\RegisterUserCommandHandler.cs",
               "RelativeDocumentMoniker": "Application\\Users\\Commands\\RegisterUserCommandHandler.cs",
               "ToolTip": "C:\\Projects\\Vit\\Application\\Users\\Commands\\RegisterUserCommandHandler.cs",
               "RelativeToolTip": "Application\\Users\\Commands\\RegisterUserCommandHandler.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAwAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T10:59:35.805Z"
+              "WhenOpened": "2025-03-02T10:59:35.805Z",
+              "EditorCaption": ""
             }
           ]
         }

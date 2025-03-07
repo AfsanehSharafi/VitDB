@@ -13,12 +13,12 @@ namespace Website.Endpoint.Pages.Account
         public string Password { get; set; }
 
         private readonly IMediator _mediator;
-        private readonly IUserRepository _userRepository; // اضافه کردن IUserRepository
+        private readonly IUserRepository _userRepository;
 
         public RegisterModel(IMediator mediator, IUserRepository userRepository)
         {
             _mediator = mediator;
-            _userRepository = userRepository; // تزریق IUserRepository
+            _userRepository = userRepository;
         }
 
         public async Task<IActionResult> OnPostAsync(RegisterUserCommand command)
@@ -26,15 +26,14 @@ namespace Website.Endpoint.Pages.Account
             if (!ModelState.IsValid)
                 return Page();
 
-            // بررسی وجود شماره موبایل
             if (await _userRepository.IsMobileNumberExistAsync(Mobile))
             {
                 ModelState.AddModelError("Mobile", "این شماره موبایل قبلاً ثبت شده است.");
                 return Page();
             }
 
-            var userId = await _mediator.Send(command);
-            return RedirectToPage("/Account/Active", new { userId = userId });
+            var Id = await _mediator.Send(command);
+            return RedirectToPage("/Account/Active", new { Id = Id });
         }
     }
 }
